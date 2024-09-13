@@ -28,3 +28,39 @@
     }
   }
   
+
+
+  /*  */
+
+  /* styles.css */
+
+/* Default Light Mode Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+
+}
+
+.dark-mode {
+  background-color: gray;
+  color: white;
+  min-height: 100vh;
+
+}
+
+/* Additional Styles to ensure full-page coverage */
+html, body {
+  height: 100%;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

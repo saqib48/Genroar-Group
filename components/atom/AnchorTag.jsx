@@ -1,4 +1,4 @@
- const AnchorTag = ({ href, text, }) => {
+const AnchorTag = ({ href, text, }) => {
 
   return (
     <div className="">
@@ -13,5 +13,4 @@
 };
 
 export default AnchorTag;
-// impotant code for me  
 

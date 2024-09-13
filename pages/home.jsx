@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Banner from "@/components/organism/Bnner";
 import CoinSecion from "@/components/organism/CoinSecion";
@@ -24,10 +25,10 @@ const Home = () => {
     <div>
       <Header />
       <div id="home">
-      <Banner />
+        <Banner />
       </div>
       <div id="solution">
-      <SlideSection />
+        <SlideSection />
       </div>
       <div id="about">
         <GroupSection />
@@ -35,9 +36,9 @@ const Home = () => {
       <PlasticHero />
       <CoinSecion />
       <ResearchSection />
-      
+
       <Touch />
-      
+
       <Footer />
     </div>
   );

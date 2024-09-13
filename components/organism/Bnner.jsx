@@ -4,6 +4,8 @@ import "aos/dist/aos.css";
 import Btn from "../atom/Btn";
 import Heading1 from "../atom/Heading";
 import "../../pages/style.css";
+import 'animate.css/animate.min.css';
+
 
 const Banner = () => {
   useEffect(() => {
@@ -13,7 +15,7 @@ const Banner = () => {
     });
   }, []);
   return (
-    <div className="px-[70px] 2xl:w-[100%] 2xl:pb-[100px] 2xl:bg-[#F4F9FE] xl:w-[100%] xl:pb-[100px] xl:bg-[#F4F9FE] lg:w-[100%] lg:pb-[100px] lg:bg-[#F4F9FE] md:w-[100%] md:pb-[100px] md:bg-[#F4F9FE] sm:w-[100%] sm:pb-[100px] sm:bg-[#F4F9FE] w-[100%] pb-[100px] bg-[#F4F9FE]">
+    <div className="px-[70px] 2xl:w-[100%] 2xl:pb-[100px]  xl:w-[100%] xl:pb-[100px]  lg:w-[100%] lg:pb-[100px] md:w-[100%] md:pb-[100px]  sm:w-[100%] sm:pb-[100px]  w-[100%] pb-[100px] ">
       <div className="out  pt-[80px] flex xl:flex-nowrap md:flex:wrap-reverse lg:flex-nowrap sm:flex-wrap-reverse flex-wrap-reverse  items-center justify-center mx-[50px] gap-[20px]">
         <div className="inner xl:pt-[150px] lg:pt-[100px] md:pt-[80px] sm:pt-[50px] pt-[40px] xl:W-[50%] lg:W-[30%] md:W-[100%] sm:W-[100%] W-[100%]">
           <div className="in " data-aos="fade-up" data-aos-delay="1200">
@@ -59,10 +61,8 @@ const Banner = () => {
           </div>
         </div>
         <div
-          className="animated-box xl:w-[50%] lg:w-[50%] md:w-[40%] sm:w-[40%]"
-          data-aos="fade-up"
-          data-aos-duration="5000"
-          data-aos-easing="ease-in-out"
+          className="animate__animated animate__bounce xl:w-[50%] lg:w-[50%] md:w-[40%] sm:w-[40%]"
+
         >
           <img
             className="W-[100%]"
