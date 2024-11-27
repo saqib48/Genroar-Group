@@ -1,17 +1,17 @@
 "use client";
 import React from "react";
-import Banner from "@/components/organism/Bnner";
-import CoinSecion from "@/components/organism/CoinSecion";
-import Footer from "@/components/organism/Footer";
-import GroupSection from "@/components/organism/GroupSection";
-import Header from "@/components/organism/Header";
-import PlasticHero from "@/components/organism/PlasticHero";
-import ResearchSection from "@/components/organism/ResearchSection";
-import SlideSection from "@/components/organism/SlideSection";
-import Touch from "@/components/organism/Touch";
+import Banner from "@/organism/Bnner";
+import CoinSecion from "@/organism/CoinSecion";
+import Footer from "@/organism/Footer";
+import Header from "@/organism/Header";
+import PlasticHero from "@/organism/PlasticHero";
+import ResearchSection from "@/organism/ResearchSection";
+import SlideSection from "@/organism/SlideSection";
+import Touch from "@/organism/Touch";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import GroupSection from "@/organism/GroupSection";
 
 const Home = () => {
   useEffect(() => {
