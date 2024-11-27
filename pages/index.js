@@ -28,16 +28,9 @@ function index() {
   return (
     <div>
 
-      <div className={darkMode ? 'dark-mode' : 'light-mode'}>
-        <header className='text-center flex justify-center items-center'>
-          <button onClick={toggleDarkMode} className='text-center flex justify-center items-center'>
-            {darkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
-          </button>
-        </header>
         <main>
           <Home />
         </main>
-      </div>
       {/* <Practice /> */}
       {/* <AnimatedComponent/> */}
       {/* <Chart /> */}

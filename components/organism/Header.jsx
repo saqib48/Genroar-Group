@@ -1,10 +1,12 @@
+"use client";
+
 import { React, useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Image from '../atom/Image';
 import "../../app/globals.css";
 import AnchorTag from '../atom/AnchorTag';
-import Btn from '../atom/btn';
+import Btn from '@/atom/Btn';
 
 const Header = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
