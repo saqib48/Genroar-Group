@@ -1,11 +1,6 @@
 "use client";
-import Home from './home'
-import Practice from '@/components/organism/Practice'
+import Home from './home';
 import React, { useState, useEffect } from 'react';
-import AnimatedComponent from './../components/organism/Animated';
-import Chart from '@/components/organism/Chart';
-import InfiniteScroll from '@/components/organism/InfiniteScroll';
-import DragAndDrop from '@/components/organism/DragandDrop';
 
 
 
