@@ -1,9 +1,8 @@
 import React from 'react'
 import Heading1 from '../atom/Heading';
 import "../../app/globals.css";
-import AnchorTag from '../atom/AnchorTag';
 import Inputs from '../atom/Inputs';
-import Btn from '../atom/Btn';
+import Btn from '@/atom/Btn';
 
 
 const Footer = () => {

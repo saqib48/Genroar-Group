@@ -1,3 +1,5 @@
+"use client";
+
 import { React, useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -7,7 +9,7 @@ import CounterBox3 from '../atom/CounterBox3';
 import CountBox4 from '../atom/CountBox4';
 import Heading1 from '../atom/Heading';
 import Product from '../atom/ImageBox';
-import Btn from '../atom/Btn';
+import Btn from '@/atom/Btn';
 import "../../app/globals.css";
 
 

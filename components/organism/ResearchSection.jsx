@@ -1,6 +1,6 @@
 import React from 'react'
 import Heading1 from '../atom/Heading'
-import Btn from '../atom/Btn'
+import Btn from '@/atom/Btn';
 
 const ResearchSection = () => {
   return (

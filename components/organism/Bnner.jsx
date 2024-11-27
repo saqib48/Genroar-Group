@@ -1,7 +1,9 @@
+"use client";
+
 import { React, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Btn from "../atom/Btn";
+import Btn from '@/atom/Btn';
 import Heading1 from "../atom/Heading";
 import "../../pages/style.css";
 import 'animate.css/animate.min.css';
