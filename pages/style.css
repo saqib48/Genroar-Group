@@ -11,7 +11,7 @@
     bottom: 0px;
     left: 0px;
 } */
-.animated-box {
+/* .animated-box {
  
     animation: upDown 5s ease-in-out infinite; 
   }
@@ -29,12 +29,6 @@
   }
   
 
-
-  /*  */
-
-  /* styles.css */
-
-/* Default Light Mode Styles */
 body {
   margin: 0;
   padding: 0;
@@ -54,7 +48,6 @@ body {
 
 }
 
-/* Additional Styles to ensure full-page coverage */
 html, body {
   height: 100%;
 }
@@ -63,4 +56,4 @@ html, body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-}
+} */
